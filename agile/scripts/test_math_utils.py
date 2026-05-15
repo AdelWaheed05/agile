@@ -1,7 +1,8 @@
-from math_utils import add, subtract [cite: 14]
+from math_utils import add, subtract
 
 def test_add():
-    assert add(2, 3) == 5 [cite: 15, 16]
+    # Make sure there is no space between 'add' and '(2, 3)'
+    assert add(2, 3) == 5
 
 def test_subtract():
-    assert subtract(5, 3) == 2 [cite: 17, 18]
+    assert subtract(5, 3) == 2
